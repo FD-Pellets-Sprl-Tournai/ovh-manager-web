@@ -4,7 +4,6 @@ import { CHARTJS } from './chartjs.constant';
 import wucChartjsDirective from './chartjs.directive';
 import WucChartjsFactory from './chartjs.factory';
 
-
 const moduleName = 'wucChartjs';
 
 angular
