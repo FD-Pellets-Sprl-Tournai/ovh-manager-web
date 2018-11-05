@@ -6,7 +6,9 @@
     </thead>
     <tbody data-ng-show="getPaginatedTableLoading() || !lineTemplate">
         <tr>
-            <td colspan="{{paginatedTableTitles.length}}"><div class="loader"></div></td>
+            <td colspan="{{paginatedTableTitles.length}}">
+                <oui-spinner></oui-spinner>
+            </td>
         </tr>
     </tbody>
     <tbody data-ng-show="getPaginatedTableStuff().count == 0 && !getPaginatedTableLoading() && lineTemplate">
