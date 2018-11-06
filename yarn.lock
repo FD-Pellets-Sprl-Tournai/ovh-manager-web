@@ -8511,9 +8511,9 @@ ovh-module-emailpro@ovh-ux/ovh-module-emailpro#^7.0.1:
     moment "^2.16.0"
     punycode "^1.2.4"
 
-ovh-module-exchange@ovh-ux/ovh-module-exchange#^9.0.1:
+ovh-module-exchange@ovh-ux/ovh-module-exchange#refactor/removeDeprecatedOffer:
   version "9.0.4"
-  resolved "https://codeload.github.com/ovh-ux/ovh-module-exchange/tar.gz/ebf6a39d9be82711b9f83bd7ab70eccca04d87b6"
+  resolved "https://codeload.github.com/ovh-ux/ovh-module-exchange/tar.gz/d475b85e824068ea9246b2ca456164bdba83e5b2"
   dependencies:
     lodash "~3.9.3"
 
