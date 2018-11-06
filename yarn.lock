@@ -1011,43 +1011,6 @@
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@ovh-ux/manager-webpack-config/-/manager-webpack-config-2.4.0.tgz#f06942d6c19bafe95990f35c1d563757a13f6d4b"
   integrity sha512-jzcVq+F6ReimrcL4X2AmEvw7Vot9op62MBfXISHP/BbNUbQp1RkwkIDs8gd5WkqhkmkQa4zMNHKCc+l/QP4Qdw==
-  dependencies:
-    "@babel/core" "^7.0.0"
-    "@babel/generator" "^7.0.0"
-    "@babel/parser" "^7.0.0"
-    "@babel/plugin-syntax-dynamic-import" "^7.0.0"
-    "@babel/preset-env" "^7.0.0"
-    "@ovh-ux/component-rollup-config" "^2.1.0"
-    "@ovh-ux/manager-webpack-dev-server" "^2.0.0"
-    acorn "^6.0.2"
-    acorn-dynamic-import "^4.0.0"
-    babel-eslint "^8.2.6"
-    babel-loader "^8.0.4"
-    babel-plugin-angularjs-annotate "^0.9.0"
-    cache-loader "^1.2.2"
-    copy-webpack-plugin "^4.5.2"
-    css-loader "^1.0.0"
-    file-loader "^2.0.0"
-    html-webpack-plugin "^3.2.0"
-    http-proxy-middleware "^0.18.0"
-    less "^2.3.1"
-    less-loader "^4.1.0"
-    less-plugin-remcalc "^0.0.1"
-    loader-utils "^1.1.0"
-    lodash "^4.17.10"
-    mini-css-extract-plugin "^0.4.2"
-    node-sass "^4.9.3"
-    raw-loader "^0.5.1"
-    resolve-url-loader "^3.0.0"
-    sass-loader "^7.1.0"
-    script-loader "^0.7.2"
-    style-loader "^0.23.0"
-    url-loader "^1.1.1"
-    webpack "^4.5.0"
-    webpack-bundle-analyzer "^2.13.1"
-    webpack-cli "^3.1.0"
-    webpack-merge "^4.1.4"
-    webpackbar "^2.6.3"
 
 "@ovh-ux/manager-webpack-dev-server@^2.0.0":
   version "2.0.2"
@@ -8537,33 +8500,33 @@ ovh-manager-webfont@ovh-ux/ovh-manager-webfont#^1.0.1:
   version "1.0.2"
   resolved "https://codeload.github.com/ovh-ux/ovh-manager-webfont/tar.gz/1d759c46c8c3ead4bc5e887a2336abd124a17c58"
 
-ovh-module-emailpro@ovh-ux/ovh-module-emailpro#^7.0.1:
+ovh-module-emailpro@ovh-ux/ovh-module-emailpro#components-tabs:
   version "7.0.5"
-  resolved "https://codeload.github.com/ovh-ux/ovh-module-emailpro/tar.gz/7cbff19496e9b1164a1623e4e51a712799eca323"
+  resolved "https://codeload.github.com/ovh-ux/ovh-module-emailpro/tar.gz/edc5fb08e943e6dd4a9fe5d7d1b3f2715f324e1f"
   dependencies:
     angular "~1.6.10"
     lodash "~3.9.3"
     moment "^2.16.0"
     punycode "^1.2.4"
 
-ovh-module-exchange@ovh-ux/ovh-module-exchange#^9.0.1:
+ovh-module-exchange@ovh-ux/ovh-module-exchange#components-tabs:
   version "9.0.4"
-  resolved "https://codeload.github.com/ovh-ux/ovh-module-exchange/tar.gz/ebf6a39d9be82711b9f83bd7ab70eccca04d87b6"
+  resolved "https://codeload.github.com/ovh-ux/ovh-module-exchange/tar.gz/8910600bc56eae9724dd76a3a4a747e03407549d"
   dependencies:
     lodash "~3.9.3"
 
-ovh-module-office@ovh-ux/ovh-module-office#^7.0.0:
+ovh-module-office@ovh-ux/ovh-module-office#components-tabs:
   version "7.0.2"
-  resolved "https://codeload.github.com/ovh-ux/ovh-module-office/tar.gz/934797163212a5f5364efb22c01c879fa6459a6c"
+  resolved "https://codeload.github.com/ovh-ux/ovh-module-office/tar.gz/6b034bca83640785ab042e336694e3d024c16151"
   dependencies:
     angular "~1.6.10"
     jsurl "^0.1.4"
     lodash "~3.9.3"
     moment "^2.16.0"
 
-ovh-module-sharepoint@ovh-ux/ovh-module-sharepoint#^7.0.0:
+ovh-module-sharepoint@ovh-ux/ovh-module-sharepoint#components-tabs:
   version "7.0.2"
-  resolved "https://codeload.github.com/ovh-ux/ovh-module-sharepoint/tar.gz/c58527de76404fee54a84ce8e91eb24475165fad"
+  resolved "https://codeload.github.com/ovh-ux/ovh-module-sharepoint/tar.gz/a78ef84ebfb19cf15212a850df6a6ad1347b965e"
   dependencies:
     angular "~1.6.10"
     filesize "^3.5.10"
