@@ -8503,18 +8503,18 @@ ovh-manager-webfont@ovh-ux/ovh-manager-webfont#^1.0.1:
   version "1.0.2"
   resolved "https://codeload.github.com/ovh-ux/ovh-manager-webfont/tar.gz/1d759c46c8c3ead4bc5e887a2336abd124a17c58"
 
-ovh-module-emailpro@ovh-ux/ovh-module-emailpro#^7.0.1:
+ovh-module-emailpro@ovh-ux/ovh-module-emailpro#components-validator:
   version "7.0.5"
-  resolved "https://codeload.github.com/ovh-ux/ovh-module-emailpro/tar.gz/7cbff19496e9b1164a1623e4e51a712799eca323"
+  resolved "https://codeload.github.com/ovh-ux/ovh-module-emailpro/tar.gz/c1f3f387c355c115124dce12a1833aa82e947307"
   dependencies:
     angular "~1.6.10"
     lodash "~3.9.3"
     moment "^2.16.0"
     punycode "^1.2.4"
 
-ovh-module-exchange@ovh-ux/ovh-module-exchange#^9.0.1:
+ovh-module-exchange@ovh-ux/ovh-module-exchange#components-validator:
   version "9.0.4"
-  resolved "https://codeload.github.com/ovh-ux/ovh-module-exchange/tar.gz/ebf6a39d9be82711b9f83bd7ab70eccca04d87b6"
+  resolved "https://codeload.github.com/ovh-ux/ovh-module-exchange/tar.gz/d24b262e779a489bf24afedc1d7d35be050b9040"
   dependencies:
     lodash "~3.9.3"
 
@@ -8527,9 +8527,9 @@ ovh-module-office@ovh-ux/ovh-module-office#^7.0.0:
     lodash "~3.9.3"
     moment "^2.16.0"
 
-ovh-module-sharepoint@ovh-ux/ovh-module-sharepoint#^7.0.0:
+ovh-module-sharepoint@ovh-ux/ovh-module-sharepoint#components-validator:
   version "7.0.2"
-  resolved "https://codeload.github.com/ovh-ux/ovh-module-sharepoint/tar.gz/c58527de76404fee54a84ce8e91eb24475165fad"
+  resolved "https://codeload.github.com/ovh-ux/ovh-module-sharepoint/tar.gz/c2460cf2ead79d446c3088331b7f5d4e867ae45b"
   dependencies:
     angular "~1.6.10"
     filesize "^3.5.10"
