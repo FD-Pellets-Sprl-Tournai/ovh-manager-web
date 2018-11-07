@@ -8492,9 +8492,9 @@ ovh-module-office@ovh-ux/ovh-module-office#^7.0.0:
     lodash "~3.9.3"
     moment "^2.16.0"
 
-ovh-module-sharepoint@ovh-ux/ovh-module-sharepoint#^7.0.0:
+ovh-module-sharepoint@ovh-ux/ovh-module-sharepoint#components-incrementnumber:
   version "7.0.2"
-  resolved "https://codeload.github.com/ovh-ux/ovh-module-sharepoint/tar.gz/c58527de76404fee54a84ce8e91eb24475165fad"
+  resolved "https://codeload.github.com/ovh-ux/ovh-module-sharepoint/tar.gz/de7f3c83f5708e99d203a13d4f769ffd5777416c"
   dependencies:
     angular "~1.6.10"
     filesize "^3.5.10"
