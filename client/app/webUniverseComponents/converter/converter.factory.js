@@ -81,7 +81,7 @@ export default () => {
         },
         {
           val: binaryBase ** 8,
-          unit: 'YB',
+          unit: 'YiB',
         },
       ],
     },
