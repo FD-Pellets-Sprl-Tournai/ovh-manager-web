@@ -440,6 +440,7 @@ class SessionService {
         class: managerName,
         title: this.$translate.instant(`universe_univers-${managerName}_name`),
         url: managerUrls[managerName],
+        click: () => this.trackManagerRedirection(managerName),
         isPrimary: ['partners', 'labs'].indexOf(managerName) === -1,
       };
 
@@ -448,6 +449,29 @@ class SessionService {
       }
 
       return managerLink;
+    });
+  }
+
+  trackManagerRedirection(managerName) {
+    let chapter1;
+    switch (managerName) {
+      case 'dedicated':
+        chapter1 = 'Dédié';
+        break;
+      case 'partners':
+        chapter1 = 'Partenaires';
+        break;
+      case 'portal':
+        chapter1 = 'MyOVH';
+        break;
+      default:
+        chapter1 = _.startCase(managerName);
+        break;
+    }
+    return this.atInternet.trackClick({
+      name: `Header-${chapter1}`,
+      type: 'navigation',
+      chapter1,
     });
   }
 
