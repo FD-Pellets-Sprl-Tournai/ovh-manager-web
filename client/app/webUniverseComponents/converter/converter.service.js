@@ -29,4 +29,14 @@ export default class {
 
     return this.WucConverterFactory[system].units[baseUnit].val * nb;
   }
+
+  getUnitRange(minUnit, maxUnit, system = 'international') {
+    const minIndex = _.findIndex(this.WucConverterFactory[system].units, { unit: minUnit });
+    const maxIndex = _.findIndex(this.WucConverterFactory[system].units, { unit: maxUnit });
+    if (minIndex > maxIndex) {
+      throw new Error('Max unit is lower than min unit');
+    }
+
+    return this.WucConverterFactory[system].units.slice(minIndex, maxIndex + 1);
+  }
 }
