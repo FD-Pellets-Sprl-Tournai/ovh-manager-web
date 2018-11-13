@@ -5,8 +5,11 @@ export default class {
    * @param OvhHttp
    */
   constructor($q, OvhHttp, Poller) {
+<<<<<<< HEAD
     'ngInject';
 
+=======
+>>>>>>> refactor(components.email-domain): move to webUniverseComponent
     this.$q = $q;
     this.OvhHttp = OvhHttp;
     this.Poller = Poller;
