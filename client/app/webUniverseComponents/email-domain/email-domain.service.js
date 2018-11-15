@@ -5,11 +5,8 @@ export default class {
    * @param OvhHttp
    */
   constructor($q, OvhHttp, Poller) {
-<<<<<<< HEAD
     'ngInject';
 
-=======
->>>>>>> refactor(components.email-domain): move to webUniverseComponent
     this.$q = $q;
     this.OvhHttp = OvhHttp;
     this.Poller = Poller;
@@ -424,7 +421,7 @@ export default class {
    */
   getRules(serviceName, accountName, filterName) {
     return this.OvhHttp
-      .get(
+      .get(email-domain/index.js
         `/email/domain/${serviceName}/account/${accountName}/filter/${encodeURI(filterName)}/rule`,
         {
           rootPath: 'apiv6',
